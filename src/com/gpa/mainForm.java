@@ -64,16 +64,16 @@ public class mainForm {
         return avg;
     }
 
-//    public static String[] creditErrors(String[] credits) {
-//        for(int i = 0; i < credits.length; i++) {
-//            try {
-//                int val = Integer.parseInt(credits[i]);
-//            } catch (NumberFormatException e) {
-//                credits[i] = "0";
-//            }
-//        }
-//        return credits;
-//    }
+    public static String[] creditErrors(String[] credits) {
+        for(int i = 0; i < credits.length; i++) {
+            try {
+                int val = Integer.parseInt(credits[i]);
+            } catch (NumberFormatException e) {
+                credits[i] = "0";
+            }
+        }
+        return credits;
+}
 
 
 
